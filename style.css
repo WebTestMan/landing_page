@@ -1,0 +1,110 @@
+
+body {
+    font-family: Roboto, Ubuntu, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 2px;
+    padding: 6px;
+    font-size: 18px;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+
+button .sign-up {
+    border: 1px solid white;
+}
+
+.header {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.hero-text,
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 48px;
+    weight: 900;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    flex-wrap: nowrap;
+}
+
+.information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.header-links {
+    flex-wrap: nowrap;
+    padding: 2px;
+    justify-content: space-around;
+}
+
+.quote  {
+    padding: 10px;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote-text {
+
+}
+.quote-ref {
+font-size: 30px;
+font-weight: 500;
+justify-content: flex-end;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 26px;
+    margin: 2px;
+}
+
+#top-banner {
+background-color: #1f2937;
+display: flex;
+justify-content: space-around;
+padding: 22px;
+}
