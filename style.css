@@ -1,10 +1,10 @@
-
 body {
     font-family: Roboto, Ubuntu, sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 ul {
@@ -21,19 +21,23 @@ img {
     justify-content: center;
     align-items: center;
 }
+
 button {
     background-color: #3882f6;
     border-radius: 4px;
     color: white;
     border: none;
+    padding: 5px 20px;
 }
 
-button .sign-up {
+button,
+.sign-up {
     border: 1px solid white;
 }
 
 .header {
     background-color: #1f2937;
+    padding: 10px;
     font-size: 24px;
     color: #f9faf8;
     display: flex;
@@ -41,36 +45,49 @@ button .sign-up {
     justify-content: space-around;
 }
 
+.header-text {
+    font-weight: 700;
+}
+
 .hero-text,
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    
+}
+
+.footer,
+.information {
+text-align: center;
 }
 
 .hero-text {
     font-size: 48px;
-    weight: 900;
+    font-weight: 700;
 }
 
 .hero-subtext {
     color: #e5e7eb;
     font-size: 18px;
     flex-wrap: nowrap;
+    padding: 10px;
 }
 
 .information {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding: 20px;
 }
 
 .header-links {
     flex-wrap: nowrap;
     padding: 2px;
     justify-content: space-around;
+    color: #e5e7eb;
 }
 
-.quote  {
+.quote {
     padding: 10px;
     justify-content: center;
     background-color: #e5e7eb;
@@ -78,21 +95,21 @@ button .sign-up {
     font-style: italic;
     font-weight: 200;
     color: #1f2937;
+    padding: 50px 100px;
 }
 
-.quote-text {
-
-}
 .quote-ref {
-font-size: 30px;
-font-weight: 500;
-justify-content: flex-end;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: right;
 }
 
-.sign-up{
+.sign-up {
+    display: flex;
     background-color: #3882f6;
     padding: 50px;
     margin: 10px;
+    color: #f9faf8;
 }
 
 .banner {
@@ -103,8 +120,15 @@ justify-content: flex-end;
 }
 
 #top-banner {
-background-color: #1f2937;
-display: flex;
-justify-content: space-around;
-padding: 22px;
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+.left {
+    padding: 10px;
+    flex-wrap: nowrap;
 }
